@@ -9,7 +9,7 @@ const Sidebar = (): ReactElement => {
   return (
     <section className="sidebar">
       <ul>
-        {countries.map((country, index) => {
+        {countries?.map((country, index) => {
           return (
             <li key={index} className="country">
               <Flag code={country} height="28" width="28" />
