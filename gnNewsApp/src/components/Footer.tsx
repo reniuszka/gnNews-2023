@@ -23,7 +23,7 @@ const Footer = ({
         Time: <span>{date.toLocaleTimeString()}</span>
       </p>
       <p>
-        Number of articles: <span>{articles.length}</span>
+        Number of articles: <span>{articles?.length | 0}</span>
       </p>
       <p>Build by Renata Diurczak</p>
     </footer>
