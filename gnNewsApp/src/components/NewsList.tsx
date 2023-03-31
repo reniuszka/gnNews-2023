@@ -14,7 +14,6 @@ const NewsList = ({
 }: PropType): ReactElement => {
   const { country } = useParams();
   const { grid } = useSelector((state: RootState) => state.grid);
-  console.log("grid from list", grid);
   return (
     <section>
       <div className="title">
@@ -22,7 +21,7 @@ const NewsList = ({
         <div className="title-underline"></div>
       </div>
       <div className={grid ? "articles-grid" : "articles-list"}>
-        {articles.map((article) => {
+        {articles?.map((article) => {
           return (
             <NewsArticle
               key={`${article.publishedAt}-${article.author} `}
