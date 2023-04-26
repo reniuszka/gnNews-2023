@@ -42,7 +42,3 @@ Powinien zawierać:
 
 - aktualną godzinę
 - liczbę artykułów, które są wyświetlane w głównym contencie
-
-## Zadanie dodatkowe
-
-Jeżeli masz jeszcze chwilę czasu i ochoty to dodaj możliwość zmiany języka interfejsu aplikacji. Niech możliwość zmiany języka znajduje się w headerze. Pamiętaj, że nie jest to wymagane, ale może okazać się dodatkowym atutem.
